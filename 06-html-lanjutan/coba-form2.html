@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elemen Form Radio & Checkbox</title>
+  </head>
+  <body>
+    <form>
+      <label for="nama"
+        >Nama:
+        <input
+          type="text"
+          name="nama"
+          id="nama"
+          placeholder="masukan nama"
+          autocomplete="off"
+          autofocus
+          required
+        />
+      </label>
+
+      <br />
+      <h3>Hobby:</h3>
+
+      <label for="hobi1">
+        <input type="checkbox" name="hobi1" id="hobi1" value="olahraga" />
+        Olahraga
+      </label>
+
+      <br />
+
+      <label for="hobi2">
+        <input type="checkbox" name="hobi2" id="hobi2" value="musik" /> Musik
+      </label>
+
+      <br />
+
+      <h3>Jenis Kelamin:</h3>
+
+      <label for="pria">
+        <input
+          type="radio"
+          name="jenis_kelamin"
+          id="pria"
+          value="pria"
+          
+        />Pria
+      </label>
+
+      <br>
+      
+      <label for="wanita">
+        <input
+          type="radio"
+          name="jenis_kelamin"
+          id="wanita"
+          value="wanita"
+          required
+        />Wanita
+      </label>
+
+      <br />
+
+      <button type="submit">Kirim</button>
+    </form>
+  </body>
+</html>
