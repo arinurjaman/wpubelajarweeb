@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coba Elemen Form Select dan Textarea</title>
+  </head>
+  <body>
+    <form>
+      <h3>Pilih Kota:</h3>
+      <select name="kota" id="kota">
+        <option>-- Pilih salah satu kota --</option>
+        <option value="bandung">Bandung</option>
+        <option value="Jakarta">Jakarta</option>
+        <option value="Samarinda">Samarinda</option>
+        <option value="Surabaya">Surabaya</option>
+        <option value="Kalimantan">Kalimantan</option>
+      </select>
+      <br />
+      <h3>About Me:</h3>
+      <textarea
+        name="about"
+        id="about"
+        rows="5" 
+        cols="50"
+        placeholder="tentang diri anda.."
+        required
+      ></textarea>
+
+      <!-- rows: untuk mengatur panjang
+            cols: untuk mengatur lebar -->
+      <br /><br />
+      <button type="submit">Kirim</button>
+    </form>
+  </body>
+</html>
