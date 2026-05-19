@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coba Text - Overflow & Shadow</title>
+
+    <style>
+      h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        text-align: center;
+        color: rgb(11, 202, 255);
+        text-shadow: 3px 3px 0 rgb(0, 115, 147);
+      }
+
+      p {
+        font-size: 20px;
+        white-space: nowrap;
+        width: 500px;
+        background-color: brown;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      /* white-space, overflow, dan text-overflow satu paket agar efek bisa dilakukan */
+    </style>
+  </head>
+  <body>
+    <h1>Hello CSS!</h1>
+
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi suscipit
+      quisquam aliquid velit eius a distinctio amet iure cupiditate, sunt
+      expedita repudiandae nam commodi animi unde nemo nostrum porro et.
+      Pariatur atque aliquam itaque iure, magni hic laboriosam esse vitae
+      aliquid quaerat doloribus possimus similique. Molestiae eos fugiat animi
+      inventore.
+    </p>
+  </body>
+</html>
