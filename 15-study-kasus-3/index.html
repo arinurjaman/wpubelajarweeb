@@ -4,35 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WPU StreamFest 2026</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <h1>WPU StreamFest 2026</h1>
+      <h1 class="logo">WPU StreamFest 2026</h1>
 
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#lineup">Lineup</a></li>
-          <li><a href="#schedule">Schedule</a></li>
-          <li><a href="#tickets">Tickets</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-        </ul>
-      </nav>
+      <ul class="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#lineup">Lineup</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+        <li><a href="#tickets">Tickets</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+      </ul>
     </header>
 
-    <main id="home">
-      <h2>Neon Nights Music Festival</h2>
+    <main>
+      <section id="hero">
+        <h2>Neon Nights Music Festival</h2>
 
-      <p><strong>3 Days. 6 Indonesian Artist. Ifinite Vibes</strong></p>
-      <br />
-      <p>June 15-17, 2026 | Jakarta International Expo</p>
+        <h4>3 Days. 6 Indonesian Artist. Ifinite Vibes</h4>
 
-      <p><a href="#tickets">Get Tickets</a></p>
+        <p>June 15-17, 2026 | Jakarta International Expo</p>
 
+        <a href="#tickets">Get Tickets</a>
+      </section>
       <section id="about">
+        <h3>About The Festival</h3>
         <article>
-          <h2>About The Festival</h2>
           <p>
             WPU StreamFest 2026 adalah festival musik fiksi yang menggabungkan
             konsep neon nights dengan tema gen Z. Festival ini dirancang khusus
@@ -41,8 +41,6 @@
             StreamFest 2026 menghadirkan suasana yang cerah, dinamis, dan penuh
             energi yang cocok dengan semangat generasi Z.
           </p>
-
-          <br />
 
           <p>
             Festival ini menawarkan berbagai fitur yang mengedepankan
@@ -62,66 +60,91 @@
       </section>
 
       <section id="lineup">
-        <h2>Artist Lineup</h2>
+        <h3>Artist Lineup</h3>
 
-        <figure>
-          <img src="assets/images/hindia1.jpg" alt="Hindia" />
-        </figure>
+          <ul>
+            <li>
+              <figure class="artist-card">
+                <span class="day-badge">Day 1 & Day 3</span>
+                <img src="assets/images/hindia1.jpg" alt="Hindia" />
 
-        <figcaption>
-          <h4>Hindia</h4>
-          <p>Genre: Indi, Pop, R&B</p>
-          <p>15 & 17 June 2026</p>
-        </figcaption>
-        <figure>
-          <img src="assets/images/bernadya1.jpg" alt="Bernadya" />
-        </figure>
+                <figcaption>
+                  <h4>Hindia</h4>
+                  <p>Genre: Indi, Pop, R&B</p>
+                  <p>15 & 17 June 2026</p>
+                </figcaption>
+              </figure>
+            </li>
+          
+            <li>
+              <figure class="artist-card">
+                <span class="day-badge">Day 1 & Day 3</span>
+                <img src="assets/images/bernadya1.jpg" alt="Bernadya" />
 
-        <figcaption>
-          <h4>Bernadya</h4>
-          <p>Genre: Indi Pop, Pop</p>
-          <p>15 & 17 June 2026</p>
-        </figcaption>
-        <figure>
-          <img src="assets/images/pamungkas1.jpg" alt="Pamungkas" />
-        </figure>
+                <figcaption>
+                  <h4>Bernadya</h4>
+                  <p>Genre: Indi Pop, Pop</p>
+                  <p>15 & 17 June 2026</p>
+                </figcaption>
+              </figure>
+            </li>
+          
+            <li>
+              <figure class="artist-card">
+                <span class="day-badge">Day 1 & Day 3</span>
+                <img src="assets/images/pamungkas1.jpg" alt="Pamungkas" />
 
-        <figcaption>
-          <h4>Pamungkas</h4>
-          <p>Genre: Indi Pop, Alternative</p>
-          <p>15 & 17 June 2026</p>
-        </figcaption>
-        <figure>
-          <img src="assets/images/feast1.jpg" alt="Feast" />
-        </figure>
+                <figcaption>
+                  <h4>Pamungkas</h4>
+                  <p>Genre: Indi Pop, Alternative</p>
+                  <p>15 & 17 June 2026</p>
+                </figcaption>
+              </figure>
+            </li>
+         
+            <li>
+              <figure class="artist-card">
+                <span class="day-badge">Day 2</span>
+                <img src="assets/images/feast1.jpg" alt="Feast" />
 
-        <figcaption>
-          <h4>Feast</h4>
-          <p>Genre: Pop, Dance Pop</p>
-          <p>16 June 2026</p>
-        </figcaption>
-        <figure>
-          <img src="assets/images/juicyluicy1jpg.jpg" alt="JuicyLuicy" />
-        </figure>
+                <figcaption>
+                  <h4>Feast</h4>
+                  <p>Genre: Pop, Dance Pop</p>
+                  <p>16 June 2026</p>
+                </figcaption>
+              </figure>
+            </li>
+         
+            <li>
+              <figure class="artist-card">
+                <span class="day-badge">Day 2</span>
+                <img src="assets/images/juicyluicy1jpg.jpg" alt="JuicyLuicy" />
 
-        <figcaption>
-          <h4>Juicy Luicy</h4>
-          <p>Genre: Pop, R&B</p>
-          <p>16 June 2026</p>
-        </figcaption>
-        <figure>
-          <img src="assets/images/nadin1.jpg" alt="NadinAmizah" />
-        </figure>
+                <figcaption>
+                  <h4>Juicy Luicy</h4>
+                  <p>Genre: Pop, R&B</p>
+                  <p>16 June 2026</p>
+                </figcaption>
+              </figure>
+            </li>
+          
+            <li>
+              <figure class="artist-card">
+                <span class="day-badge">Day 2</span>
+                <img src="assets/images/nadin1.jpg" alt="NadinAmizah" />
 
-        <figcaption>
-          <h4>Nadin Amizah</h4>
-          <p>Genre: Pop, R&B</p>
-          <p>16 June 2026</p>
-        </figcaption>
+                <figcaption>
+                  <h4>Nadin Amizah</h4>
+                  <p>Genre: Pop, R&B</p>
+                  <p>16 June 2026</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
       </section>
 
       <section id="schedule">
-        <h2>Festival Schedule</h2>
+        <h3>Festival Schedule</h3>
 
         <table border="1" , cellspacing="0" , cellpadding="10">
           <thead>
@@ -134,7 +157,7 @@
 
           <tbody>
             <tr>
-              <th colspan="3" align="center">DAY 1 15 JUNE 2026</th>
+              <td colspan="3" align="center">DAY 1 15 JUNE 2026</td>
             </tr>
 
             <tr>
@@ -155,7 +178,7 @@
               <td>Chill Zone</td>
             </tr>
             <tr>
-              <th colspan="3" align="center">DAY 2 16 JUNE 2026</th>
+              <td colspan="3" align="center">DAY 2 16 JUNE 2026</td>
             </tr>
 
             <tr>
@@ -174,7 +197,7 @@
               <td>Chill Zone</td>
             </tr>
             <tr>
-              <th colspan="3" align="center">DAY 2 17 JUNE 2026</th>
+              <td colspan="3" align="center">DAY 2 17 JUNE 2026</td>
             </tr>
 
             <tr>
@@ -197,27 +220,27 @@
       </section>
 
       <section id="tickets">
-        <h2>Tickets</h2>
+        <h3>Tickets</h3>
 
         <form>
           <table cellpadding="5">
-            <tr>
-              <td><label for="nama">Nama Lengkap: </label></td>
-              <td>
+
+            <div>
+            
+              <label for="nama">Nama Lengkap: </label>
                 <input
                   type="text"
-                  name="nama"
-                  id="nama"
+                  name="namalengkap"
+                  id="namalengkap"
                   placeholder="Masukkan Nama"
                   required
                 />
-              </td>
-            </tr>
-            <tr>
-              <td>
+
+                </div>
+
+                <div>
+              
                 <label for="email">Email: </label>
-              </td>
-              <td>
                 <input
                   type="email"
                   name="email"
@@ -225,73 +248,22 @@
                   placeholder="Masukkan Email"
                   required
                 />
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <label for="telepon">Nomor Telepon: </label>
-              </td>
-              <td>
-                <input
-                  type="telepon"
-                  name="telepon"
-                  id="telepon"
-                  placeholder="0878xxxxxx"
-                  required
-                />
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <h3>Type:</h3>
-              </td>
-            </tr>
-            <tr>
-              <td>Regular</td>
-              <td>
-                <label for="regular">
-                  <input
-                    type="radio"
-                    name="tiket"
-                    id="regular"
-                    value="regular"
-                    required
-                  />Rp.500.000
-                </label>
-              </td>
-            </tr>
-            <tr>
-              <td>VIP</td>
-              <td>
-                <label for="vip">
-                  <input
-                    type="radio"
-                    name="tiket"
-                    id="vip"
-                    value="vip"
-                    required
-                  />Rp.1.500.000
-                </label>
-              </td>
-            </tr>
-            <tr>
-              <td>VVIP</td>
-              <td>
-                <label for="vvip">
-                  <input
-                    type="radio"
-                    name="tiket"
-                    id="vvip"
-                    value="vvip"
-                    required
-                  />Rp.3.000.000
-                </label>
-              </td>
-            </tr>
 
-            <tr>
-              <td><label for="total_tiket"> Jumlah Tiket: </label></td>
-              <td>
+                </div>
+              
+                <div>
+                  <label for="ticket_category">Ticket Category (3 Days Pass)</label>
+                  <select name="ticket_category" id="ticket_category">
+                  <option value="" disabled selected>Select ticket category...</option>
+                  <option value="regular">Regular (Rp 500.000)</option>
+                  <option value="vip">VIP (Rp 1.500.000)</option>
+                  <option value="vvip">VVIP (Rp 3.000.000)</option>
+                  </select>
+                </div>
+
+                <div>
+
+           <label for="total_tiket"> Jumlah Tiket: </label>
                 <input
                   type="number"
                   name="total_tiket"
@@ -300,101 +272,104 @@
                   max="10"
                   required
                 />
-              </td>
-            </tr>
-
-            <tr>
-              <td>Day Pass:</td>
-            </tr>
-            <tr>
-              <td>
-                <label for="day1"></label>
-                <input type="checkbox" name="day1" id="day1" value="ya" />Day 1
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <label for="day2"></label>
-                <input type="checkbox" name="day2" id="day2" value="ya" />Day 2
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <label for="day3"></label>
-                <input type="checkbox" name="day3" id="day3" value="ya" />Day 3
-              </td>
-            </tr>
-
-            <tr>
-              <td><button type="submit">Kirim</button></td>
-            </tr>
+                </div>
+            
+            <button type="submit">Kirim</button></td>
+           
           </table>
         </form>
       </section>
 
       <section id="gallery">
-        <h2>Gallery Foto Highlight Festival 2025</h2>
+        <h3>Gallery Foto Highlight Festival 2025</h3>
+        <ul>
+          <li>
 
-        <figure>
-          <img
-            src="assets/gallery/opening-festival.png"
-            alt="Opening Festival"
-            width="300"
-          />
-          <figcaption>Opening Festival</figcaption>
-        </figure>
-        <figure>
-          <img src="assets/gallery/play-on.png" alt="Play On" width="300" />
-          <figcaption>Play On</figcaption>
-        </figure>
-        <figure>
-          <img
-            src="assets/gallery/live-performance.png"
-            alt="Live Performance"
-            width="300"
-          />
-          <figcaption>Live Performance</figcaption>
-        </figure>
-        <figure>
-          <img
-            src="assets/gallery/pintu-masuk.png"
-            alt="Pintu Masuk Festival"
-            width="300"
-          />
-          <figcaption>Pintu Masuk Festival</figcaption>
-        </figure>
-        <figure>
-          <img
-            src="assets/gallery/dj-set.png"
-            alt="DJ Set Highlight"
-            width="300"
-          />
-          <figcaption>DJ Set Highlight</figcaption>
-        </figure>
-        <figure>
-          <img
-            src="assets/gallery/closing-party.png"
-            alt="Closing Party"
-            width="300"
-          />
-          <figcaption>Closing Party</figcaption>
-        </figure>
+            <figure>
+              <img
+              src="assets/gallery/opening-festival.png"
+              alt="Opening Festival"
+              width="300"
+              />
+              <figcaption>Opening Festival</figcaption>
+            </figure>
+          </li>
+       
+          <li>
+            
+            <figure>
+              <img src="assets/gallery/play-on.png" alt="Play On" width="300" />
+              <figcaption>Play On</figcaption>
+            </figure>
+          </li>
+
+          <li>
+            
+            <figure>
+              <img
+              src="assets/gallery/live-performance.png"
+              alt="Live Performance"
+              width="300"
+              />
+              <figcaption>Live Performance</figcaption>
+            </figure>
+          </li>
+
+          <li>
+            
+            <figure>
+              <img
+              src="assets/gallery/pintu-masuk.png"
+              alt="Pintu Masuk Festival"
+              width="300"
+              />
+              <figcaption>Pintu Masuk Festival</figcaption>
+            </figure>
+          </li>
+
+          <li>
+            
+            <figure>
+              <img
+              src="assets/gallery/dj-set.png"
+              alt="DJ Set Highlight"
+              width="300"
+              />
+              <figcaption>DJ Set Highlight</figcaption>
+            </figure>
+          </li>
+
+          <li>
+            
+            <figure>
+              <img
+              src="assets/gallery/closing-party.png"
+              alt="Closing Party"
+              width="300"
+              />
+              <figcaption>Closing Party</figcaption>
+            </figure>
+          </li>
+        </ul>
       </section>
     </main>
 
     <footer>
       <p>&copy; Copyright 2026 WPU StreamFest</p>
 
-      <h3>Sosial Media</h3>
+      <p>Sosial Media :
 
-      <p><b>Instagram: </b><a href="#" target="_blank">WPUStream_Fest</a></p>
-      <p><b>TikTok: </b><a href="#" target="_blank">WPUStreamFest</a></p>
-      <p><b>Youtube: </b><a href="#" target="_blank">WPU StreamFest</a></p>
-      <p><b>Twitter: </b><a href="#" target="_blank">WPU StreamFestival</a></p>
+      <a href="#" target="_blank">Instagram</a>
+      <a href="#" target="_blank">TikTok</a>
+     <a href="#" target="_blank">Youtube</a>
+     <a href="#" target="_blank">Twitter</a>
+     </p>
       <p>
         <b>Contact: </b
         ><a href="mailto:hello@wpustreamfest.com">hello@wpustreamfest</a>
       </p>
     </footer>
+
+    <a href="#tickets" class="floating-ticket-btn">🎟️ Buy Ticket</a>
   </body>
 </html>
